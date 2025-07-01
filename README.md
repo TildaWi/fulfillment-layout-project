@@ -4,7 +4,7 @@
 > **분석 기간** &nbsp;|&nbsp;  2025.05 - 2025.05 <br/>
 > **분석 주체** &nbsp;|&nbsp;  개인 프로젝트 <br/>
 > **분석 기법** &nbsp;|&nbsp;  ABC 분석, 예측 모델링, 시뮬레이션 <br/>
-> **분석 기술** &nbsp;|&nbsp;  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Seaborn-3776AB?style=flat&logo=seaborn&logoColor=white"/> <img src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white"/>  
+> **분석 기술** &nbsp;|&nbsp;  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/RandomForest-43A047?style=flat&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/Numpy-013243?style=flat&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/Seaborn-3776AB?style=flat&logo=seaborn&logoColor=white"/>
 
 ---
 
@@ -82,8 +82,7 @@
 #### 머신러닝 기반 ABC 예측 모델링
 - 단변량 예측 모델 설계  
 - 주요 변수: 주문 빈도(`order_frequency`), 주문 밀도(`order_density`), 카테고리 등급 등
-
-  | 모델 | 정확도 | 교차검증 평균 |
+ | 모델 | 정확도 | 교차검증 평균 |
  |------|--------|----------------|
  | Random Forest | **0.9740** | **0.9663 ± 0.0066** |
  | Logistic Regression | 0.9594 | 0.9659 ± 0.0091 |
