@@ -14,10 +14,10 @@
 
 ```plaintext
 📁 fulfillment_layout_project/
- ┣ 📁 data/              원천 데이터 (상품, 주문, 피킹 이력 등)
+ ┣ 📁 data/              원천 데이터
  ┣ 📁 notebooks/         분석 및 모델링 코드 (Colab)
- ┣ 📁 images/            시각화 결과 (파레토차트, 모델 성능 비교 등)
- ┣ 📁 reports/           보고서 및 발표자료 (PDF, PPT)
+ ┣ 📁 images/            시각화 결과
+ ┣ 📁 reports/           요약 보고서 (PDF)
  ┣ 📄 README.md          프로젝트 설명 문서
  ┗ 📄 requirements.txt   사용한 Python 패키지 목록
 ```
